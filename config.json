@@ -79,5 +79,30 @@
         }
       ]
     }
+    ,
+    {
+      "id": "testing-ci",
+      "title": "Automated Testing & Local CI for Python Projects",
+      "description": "Write tests with pytest, configure tox, and add local CI via GitHub Actions.",
+      "path": "assignments/testing-ci",
+      "dueDate": "2026-07-01",
+      "attachments": [
+        {
+          "name": "Starter Module",
+          "file": "starter_module.py",
+          "type": "python"
+        },
+        {
+          "name": "Tests",
+          "file": "tests/test_starter.py",
+          "type": "python"
+        },
+        {
+          "name": "CI Workflow",
+          "file": ".github/workflows/testing-ci.yml",
+          "type": "yaml"
+        }
+      ]
+    }
   ]
 }
